@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery - Comidas del Mundo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="description" content="Explora el menú completo de comidas disponibles para Delivery.">
+    <meta name="keywords" content="delivery, comida, turca, venezolana, portuguesa, china, argentina, española, italiana, japonesa, peruana">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-3">
+        <h1>Delivery - Comidas del Mundo</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="argentina.html">Argentina</a></li>
+                        <li class="nav-item"><a class="nav-link" href="espana.html">España</a></li>
+                        <li class="nav-item"><a class="nav-link" href="italia.html">Italia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="japon.html">Japón</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+    <main class="container my-5">
+        <section class="text-center">
+            <h2>Ingresa tu Dirección</h2>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="direccion">Dirección</label>
+                    <input type="text" class="form-control" id="direccion" placeholder="Tu dirección" required>
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="correo" placeholder="Tu correo electrónico" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Pedido</button>
+            </form>
+            <p>Primero rellena este campo, da a enviar y luego selecciona el menú que más te guste.</p>
+        </section>
+        <section class="text-center">
+            <h2>Menú de Delivery</h2>
+            <p>Explora nuestro menú completo de comidas disponibles para Delivery.</p>
+        </section>
+        <section class="grid-container">
+            <div class="grid-item">
+                <img src="img/turca.jpeg" alt="Comida Turca" class="img-fluid">
+                <h5>Turca</h5>
+                <p>Sabores auténticos de Turquía.</p>
+                <a href="pedido.html" class="btn btn-primary">Pide ya!</a>
+            </div>
+            <div class="grid-item">
+                <img src="img/venezolana.jpeg" alt="Comida Venezolana" class="img-fluid">
+                <h5>Venezolana</h5>
+                <p>Explora la rica gastronomía de Venezuela.</p>
+                <a href="pedido.html" class="btn btn-primary">Pide ya!</a>
+            </div>
+            <div class="grid-item">
+                <img src="img/portuguesa.jpeg" alt="Comida Portuguesa" class="img-fluid">
+                <h5>Portuguesa</h5>
+                <p>Sumérgete en los sabores de Portugal.</p>
+                <a href="pedido.html" class="btn btn-primary">Pide ya!</a>
+            </div>
+            <div class="grid-item">
+                <img src="img/china.jpeg" alt="Comida China" class="img-fluid">
+                <h5>China</h5>
+                <p>Experimenta la diversidad de la cocina china.</p>
+                <a href="pedido.html" class="btn btn-primary">Pide ya!</a>
+            </div>
+            <div class="grid-item">
+                <img src="img/argentina.jpeg" alt="Comida Argentina" class="img-fluid">
+                <h5>Argentina</h5>
+                <p>Descubre los sabores auténticos de Argentina.</p>
+                <a href="pedido.html" class="btn btn-primary">Pide ya!</a>
+            </div>
+            <div class="grid-item">
+                <img src="img/espana.jpeg" alt="Comida Española" class="img-fluid">
+                <h5>España</h5>
+                <p>Sumérgete en la rica cultura culinaria de España.</p>
+                <a href="pedido.html" class="btn btn-primary">Pide ya!</a>
+            </div>
+            <div class="grid-item">
+                <img src="img/italia.jpeg" alt="Comida Italiana" class="img-fluid">
+                <h5>Italia</h5>
+                <p>Disfruta de los sabores mediterráneos de Italia.</p>
+                <a href="pedido.html" class="btn btn-primary">Pide ya!</a>
+            </div>
+            <div class="grid-item">
+                <img src="img/japon.jpeg" alt="Comida Japonesa" class="img-fluid">
+                <h5>Japón</h5>
+                <p>Experimenta la elegancia de la cocina japonesa.</p>
+                <a href="pedido.html" class="btn btn-primary">Pide ya!</a>
+            </div>
+            <div class="grid-item">
+                <img src="img/peruana.jpeg" alt="Comida Peruana" class="img-fluid">
+                <h5>Peruana</h5>
+                <p>Descubre la gastronomía única y auténtica de Perú.</p>
+                <a href="pedido.html" class="btn btn-primary">Pide ya!</a>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Comidas del Mundo</p>
+        <div>
+            <a href="contacto.html" class="text-white">Contacto</a> | 
+            <a href="privacidad.html" class="text-white">Política de Privacidad</a>
+        </div>
+        <div class="social-icons mt-3">
+            <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
